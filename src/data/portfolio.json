@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "./images/movix.png",
+        "title": "Movie-watching website",
+        "github": "https://github.com/PhanHunggg/Movie-TMDB.git",
+        "demo": "https://movie-tmdb-ochre.vercel.app/"
+    },
+    {
+        "id": 2,
+        "image": "./images/e-learning.png",
+        "title": "About E-learning Website",
+        "github": "https://github.com/PhanHunggg/E-Learning-App.git",
+        "demo": "https://e-learning-app-three.vercel.app/"
+    },
+    {
+        "id": 3,
+        "image": "./images/pinterest.png",
+        "title": "Back-end Printerest Clone",
+        "github": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git",
+        "demo": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git"
+    },
+    {
+        "id": 4,
+        "image": "./images/movie.png",
+        "title": "Ticket Box Website",
+        "github": "https://github.com/PhanHunggg/Movie-App.git",
+        "demo": "https://movie-app-amber-eight.vercel.app/"
+    },
+    {
+        "id": 5,
+        "image": "./images/corp.png",
+        "title": "Review Company ",
+        "github": "https://github.com/PhanHunggg/corpProject.git",
+        "demo": "https://corp-pink.vercel.app/"
+    }
+
+]
