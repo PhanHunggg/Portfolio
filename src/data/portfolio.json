@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "image": "./images/movix.png",
+        "image": "./images/portfolio.png",
         "title": "Portfolio",
         "github": "https://github.com/PhanHunggg/Portfolio.git",
         "demo": "https://portfolio-mocha-seven-50.vercel.app/"
