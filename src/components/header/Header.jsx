@@ -14,7 +14,7 @@ export default function Header() {
         <HeaderSocials />
 
         <div className="me">
-          <img src="./images/me.png" alt="" />
+          <img src="./images/me-3.png" alt="" />
         </div>
 
         <a href="#contact" className="scroll_down">

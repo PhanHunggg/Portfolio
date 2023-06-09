@@ -8,20 +8,27 @@
     },
     {
         "id": 2,
+        "image": "./images/movix.png",
+        "title": "Portfolio",
+        "github": "https://github.com/PhanHunggg/Portfolio.git",
+        "demo": "https://portfolio-mocha-seven-50.vercel.app/"
+    },
+    {
+        "id": 3,
         "image": "./images/e-learning.png",
         "title": "About E-learning Website",
         "github": "https://github.com/PhanHunggg/E-Learning-App.git",
         "demo": "https://e-learning-app-three.vercel.app/"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "./images/pinterest.png",
         "title": "Back-end Printerest Clone",
         "github": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git",
         "demo": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "./images/movie.png",
         "title": "Ticket Box Website",
         "github": "https://github.com/PhanHunggg/Movie-App.git",

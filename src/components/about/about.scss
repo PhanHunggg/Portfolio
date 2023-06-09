@@ -1,71 +1,71 @@
 @import "../scss/variable";
 
-
-    .about_container {
-        display: grid;
-        grid-template-columns: 35% 50%;
-        gap: 15%;
-        .me {
-          width: 100%;
-          aspect-ratio: 1/1;
-          border-radius: 2rem;
-          background: linear-gradient(
-            45deg,
-            transparent,
-            $color-primary,
-            transparent
-          );
-          display: grid;
-          place-items: center;
-          .img {
-            border-radius: 2rem;
-            overflow: hidden;
-            transition: $transition;
-            transform: rotate(10deg);
-          }
-          &:hover .img {
-            transform: rotate(0);
-          }
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  .me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      $color-primary,
+      transparent
+    );
+    display: grid;
+    place-items: center;
+    .img {
+      width: 100%;
+      height: 100%;
+      border-radius: 2rem;
+      overflow: hidden;
+      transition: $transition;
+      transform: rotate(10deg);
+    }
+    &:hover .img {
+      transform: rotate(0);
+    }
+  }
+  .card_content {
+    .card {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      .card_detail {
+        border: 1px solid transparent;
+        background: $color-bg-variant;
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+        transition: $transition;
+        &:hover {
+          background: transparent;
+          border-color: $color-primary-variant;
+          cursor: default;
         }
-        .card_content {
-          .card {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
-            .card_detail {
-              border: 1px solid transparent;
-              background: $color-bg-variant;
-              border-radius: 1rem;
-              padding: 2rem;
-              text-align: center;
-              transition: $transition;
-              &:hover {
-                background: transparent;
-                border-color: $color-primary-variant;
-                cursor: default;
-              }
-              .icon {
-                color: $color-primary;
-                font-size: 1.4rem;
-              }
-              h5 {
-                font-size: 0.95rem;
-              }
-              small {
-                font-size: 0.7rem;
-                color: $color-light;
-              }
-            }
-          }
-          .content {
-            p {
-              margin: 2rem 0 2.5rem;
-              color: $color-light;
-            }
-          }
+        .icon {
+          color: $color-primary;
+          font-size: 1.4rem;
+        }
+        h5 {
+          font-size: 0.95rem;
+        }
+        small {
+          font-size: 0.7rem;
+          color: $color-light;
         }
       }
-
+    }
+    .content {
+      p {
+        margin: 2rem 0 2.5rem;
+        color: $color-light;
+      }
+    }
+  }
+}
 
 /* =============  MEDIA QUERIES  (Medium DEVICES) ============*/
 @media screen and (max-width: 1024px) {
@@ -88,24 +88,24 @@
 
 /* =============  MEDIA QUERIES  (Small DEVICES) ============*/
 @media screen and (max-width: 600px) {
-    section{
-        .about_container {
-            .me {
-              width: 65%;
-              margin: 0 auto 3rem;
-            }
-            .card_content {
-                .card{
-                    grid-template-columns: 1fr 1fr;
-                    gap: 1rem;
-                }
-              .content {
-                text-align: center;
-                p {
-                  margin: 1.5rem 0;
-                }
-              }
-            }
+  section {
+    .about_container {
+      .me {
+        width: 65%;
+        margin: 0 auto 3rem;
+      }
+      .card_content {
+        .card {
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+        }
+        .content {
+          text-align: center;
+          p {
+            margin: 1.5rem 0;
           }
+        }
+      }
     }
+  }
 }
