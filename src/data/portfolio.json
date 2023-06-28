@@ -15,31 +15,32 @@
     },
     {
         "id": 3,
+        "image": "./images/api-movie.png",
+        "title": "Api Service Book movie tickets ",
+        "github": "https://github.com/PhanHunggg/NestJs_Movie.git",
+        "demo": "https://github.com/PhanHunggg/NestJs_Movie.git"
+    },
+    {
+        "id": 4,
         "image": "./images/e-learning.png",
         "title": "About E-learning Website",
         "github": "https://github.com/PhanHunggg/E-Learning-App.git",
         "demo": "https://e-learning-app-three.vercel.app/"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "./images/pinterest.png",
-        "title": "Back-end Printerest Clone",
+        "title": "Api Service Pinterest Clone",
         "github": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git",
         "demo": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git"
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "./images/movie.png",
         "title": "Ticket Box Website",
         "github": "https://github.com/PhanHunggg/Movie-App.git",
         "demo": "https://movie-app-amber-eight.vercel.app/"
-    },
-    {
-        "id": 5,
-        "image": "./images/corp.png",
-        "title": "Review Company ",
-        "github": "https://github.com/PhanHunggg/corpProject.git",
-        "demo": "https://corp-pink.vercel.app/"
     }
+  
 
 ]
