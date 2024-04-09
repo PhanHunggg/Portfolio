@@ -30,17 +30,22 @@ export default function Footer() {
       </ul>
 
       <div className="socials">
-        <a href="">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/profile.php?id=100035424935347"
+        >
           <FaFacebookF />
         </a>
-        <a href="">
+        <a target="_blank" href="https://www.instagram.com/phanquoc943/">
           <FiInstagram />
         </a>
-        <a href="">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/phan-hung-21b951233/"
+        >
           <BsLinkedin />
         </a>
       </div>
-
     </footer>
   );
 }

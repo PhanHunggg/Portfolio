@@ -66,10 +66,22 @@ export default function Experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
             <article className="detail">
-              <BsFillPatchCheckFill />
               <div>
-                <h4>SQL Server</h4>
+                <BsFillPatchCheckFill />
+              </div>
+              <div>
+                <h4>NestJs</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="detail">
+              <div>
+                <BsFillPatchCheckFill />
+              </div>
+              <div>
+                <h4>MongoDB</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -80,12 +92,11 @@ export default function Experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
             <article className="detail">
+              <BsFillPatchCheckFill />
               <div>
-                <BsFillPatchCheckFill />
-              </div>
-              <div>
-                <h4>NestJs</h4>
+                <h4>SQL Server</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

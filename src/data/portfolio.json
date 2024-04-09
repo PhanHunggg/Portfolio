@@ -1,46 +1,47 @@
 [
-    {
-        "id": 1,
-        "image": "./images/movix.png",
-        "title": "Movie-watching website",
-        "github": "https://github.com/PhanHunggg/Movie-TMDB.git",
-        "demo": "https://movie-tmdb-ochre.vercel.app/"
-    },
-    {
-        "id": 2,
-        "image": "./images/portfolio.png",
-        "title": "Portfolio",
-        "github": "https://github.com/PhanHunggg/Portfolio.git",
-        "demo": "https://portfolio-mocha-seven-50.vercel.app/"
-    },
-    {
-        "id": 3,
-        "image": "./images/api-movie.png",
-        "title": "Api Service Book movie tickets ",
-        "github": "https://github.com/PhanHunggg/NestJs_Movie.git",
-        "demo": "https://github.com/PhanHunggg/NestJs_Movie.git"
-    },
-    {
-        "id": 4,
-        "image": "./images/e-learning.png",
-        "title": "About E-learning Website",
-        "github": "https://github.com/PhanHunggg/E-Learning-App.git",
-        "demo": "https://e-learning-app-three.vercel.app/"
-    },
-    {
-        "id": 5,
-        "image": "./images/pinterest.png",
-        "title": "Api Service Pinterest Clone",
-        "github": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git",
-        "demo": "https://github.com/PhanHunggg/Bt_Nestjs_Img.git"
-    },
-    {
-        "id": 6,
-        "image": "./images/movie.png",
-        "title": "Ticket Box Website",
-        "github": "https://github.com/PhanHunggg/Movie-App.git",
-        "demo": "https://movie-app-amber-eight.vercel.app/"
-    }
-  
+  {
+    "id": 1,
+    "image": "./images/phone_be.png",
+    "title": "Store Phone WebService",
+    "github": "https://github.com/PhanHunggg/Store_phone.git",
+    "demo": "https://phone-be.onrender.com/swagger"
+  },
+  {
+    "id": 2,
+    "image": "./images/phone-fe.png",
+    "title": "Store Phone website",
+    "github": "https://github.com/ThanhDat3105/phone-ecommerce.git",
+    "demo": "https://phone-ecommerce-delta.vercel.app/"
+  },
 
+  {
+    "id": 3,
+    "image": "./images/e-commerce.png",
+    "title": "E-commerce website",
+    "github": "https://github.com/PhanHunggg/E-commerce.git",
+    "demo": "https://github.com/PhanHunggg/E-commerce.git"
+  },
+  {
+    "id": 4,
+    "image": "./images/movix.png",
+    "title": "Movie-watching website",
+    "github": "https://github.com/PhanHunggg/Movie-TMDB.git",
+    "demo": "https://movie-tmdb-ochre.vercel.app/"
+  },
+
+  {
+    "id": 5,
+    "image": "./images/fiver-be.png",
+    "title": "Fiver WebService",
+    "github": "https://github.com/PhanHunggg/Backend_Fiver.git",
+    "demo": "https://github.com/PhanHunggg/Backend_Fiver.git"
+  },
+
+  {
+    "id": 6,
+    "image": "./images/e-learning.png",
+    "title": "About E-learning Website",
+    "github": "https://github.com/PhanHunggg/E-Learning-App.git",
+    "demo": "https://e-learning-app-three.vercel.app/"
+  }
 ]

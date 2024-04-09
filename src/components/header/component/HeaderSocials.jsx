@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 export default function HeaderSocials() {
   return (
     <div className="header_socials">
-      <a rel="noreferrer" href="" target="_blank">
+      <a rel="noreferrer" href="https://www.linkedin.com/in/phan-hung-21b951233/" target="_blank">
         <BsLinkedin />
       </a>
       <a rel="noreferrer" href="https://github.com/PhanHunggg" target="_blank">
