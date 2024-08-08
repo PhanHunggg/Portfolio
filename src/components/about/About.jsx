@@ -1,6 +1,5 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import "./about.scss";
 
@@ -20,7 +19,7 @@ export default function About() {
             <article className="card_detail">
               <FaAward className="icon" />
               <h5>Experience</h5>
-              <small>6+ Month Working</small>
+              <small>1+ Year Working</small>
             </article>
 
             <article className="card_detail">
@@ -32,7 +31,7 @@ export default function About() {
           <div className="content">
             <p>
               I am an enthusiastic and detail-oriented web developer with
-              ReactJS, HTML, CSS, JavaScript, MySQL, Nodejs, and Netjs
+              JavaScript, Nodejs, NestJS, MySQL, PostgreSQL, Prisma, TypeORM
               expertise. I enjoy learning about new technologies and coding
               complex functions. I am well-informed in software programming,
               REST APIs, and online application design. I have excellent

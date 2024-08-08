@@ -62,7 +62,7 @@ export default function Experience() {
             <article className="detail">
               <BsFillPatchCheckFill />
               <div>
-                <h4>MYSQL</h4>
+                <h4>MYSQL, PostgreSQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -96,7 +96,7 @@ export default function Experience() {
             <article className="detail">
               <BsFillPatchCheckFill />
               <div>
-                <h4>SQL Server</h4>
+                <h4>Monitoring</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
